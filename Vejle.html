@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+     	<title>Lugares | Danmark</title>
+     	<meta charset="utf-8"/>
+		<link rel="icon" type="icon" href="imgs/dansk_flag.jpeg" />
+        <link rel="stylesheet" type="text/css" href="stylevejle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+    
+ 
+	<body>
+		<header>
+
+<div class="cabecalho">
+    <div class="home">
+      <h1><a href="Home.html" class="text-home">DANMARK</a></h1>
+    </div>
+<div class="fundovermelho">
+          <h1>
+    <div class="menu"><a style="color: white;" href="Home.html">Home</a>  |   <a style="color: white;" href="Lugares.html">Lugares</a>   |   <a style="color: white;" href="Diario.html">Diário</a>   |   <a style="color: white;" href="Comida.html">Comida</a></div>
+      </h1>
+</div>
+</div>
+
+<div class="foto_nyhavn">
+	<div class="hero_text">
+	<h1>Vejle</h1>	
+	</div>
+</div>
+<!--hr style="background-color:darkred; border-color:darkred; height: 2px"-->
+		</header>
+<br>
+<span class="subtitulos">O que é esse lugar?</span>
+
+
+   <img src="imgs/steder/vejle-map.jpg" style="float: right; width: auto; height: 300px; margin-left: 3%; margin-top:0px; border: 0px solid darkred;">	
+
+<p style="text-align: left; font-size: 18px; font-family: Aleo; letter-spacing: 0.25px; padding-right: 5%; padding-left: 10px; color: #000"><span style="font-style: italic; font-weight:bold">
+	Wikipedia: </span>Vejle é uma cidade na Dinamarca, no sudeste da península da Jutlândia (Jutland), na cabeceira do fiorde de Vejle, onde convergem o rio Vejle e o rio Grejs e seus vales. É o local dos conselhos do município de Vejle (kommune, em dinamarquês) e da região do sul da Dinamarca.
+	<br><br> A cidade tem uma população de 57,655 (1º de janeiro de 2020), tornando-se a nona maior cidade da Dinamarca <span style="font-style:italic">(pra comparação, numa estimativa do IBGE, Votorantim tinha uma população de 123.599 em 2020).</span> A cidade faz parte da Região do Triângulo, que inclui as cidades vizinhas de Kolding e Fredericia.</p>
+<br><br>
+
+	<span class="subtitulos">Pontos Turísticos</span>
+
+<div class="slideshow-container-com-botao">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img class="img-slide" src="imgs/steder/terminal-deitado.jpg" style="width:100%">
+  <div class="text">Terminal de Vejle</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img class="img-slide" src="imgs/steder/vejle-deitado.jpg" style="width:100%">
+  <div class="text">Prefeitura da cidade</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img class="img-slide" src="imgs/steder/ceu-rosa.jpg" style="width:100%">
+  <div class="text">Céu bonito mesmo</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+<p style="color:white; clear: both">aaa</p>
+<br><br><br>
+	</body>
+</html>
