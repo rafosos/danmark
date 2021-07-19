@@ -2,6 +2,9 @@ body{
   margin:0;
 }
 
+header{
+  position: ;
+}
 .cabecalho{
   /*align-items: center;*/
   display: flex;
@@ -14,7 +17,7 @@ body{
   /*position: -webkit-sticky;*/
   position: absolute;
   left: 9%;
-  top: 3%;
+  top: 18%;
   background-color: white;
   /*float: left;*/
   height: 50px;
@@ -27,7 +30,7 @@ body{
   text-align: center;
   position: absolute;
   left: 8%;
-  top: 14%;
+  top: 13%;
 }
 
 
@@ -40,16 +43,17 @@ body{
 
 .menu{
   text-align: right;
-  padding-right: 15%;
+  padding-right: 12%;
   /*align-self: center;*/
   color: white;
   font-family: 'Aleo';
+  font-size: 27px;
   white-space: pre;
   /*float:right;*/
   }
 
   .foto_nyhavn{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("imgs/nyhavn.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("imgs/steder/nyhavn2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,7 +65,7 @@ body{
 .tituloshome{
   text-align: center; 
   font-size: 4em; 
-  font-family: Garamond, serif; 
+  font-family: Optima, Garamond, serif; 
   font-style: italic; 
   font-weight:lighter; 
   text-decoration: underline 2.1px dotted darkred; 
@@ -83,8 +87,22 @@ body{
 .img_galeria{
    border: 1px solid grey; 
    padding: 5px;
-   border-radius: 5px;
-   color: grey;
+   border-radius: 0px;
+   color: gray;
+}
+
+.img_galeria:hover{
+   animation-name: galeria_hover;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;  
+}
+
+@keyframes galeria_hover{
+    100%{
+  border-color: white;
+  color: black;
+  background-color: white;
+}
 }
 
 ul{
@@ -92,7 +110,7 @@ ul{
   margin-top:0;
   margin-bottom: 0;
   height: 325px;
-  padding-left: 7%
+  padding-left: 7%;
 }
 
 li{
@@ -100,10 +118,16 @@ li{
   display: inline-block;
 }
 
-.img_galeria:hover{
-  border-color: white;
+footer{
+  background-color: black;
+  padding-top: 0.5em;
+  padding-left: 50px;
+  padding-bottom: 0px;
+  font-family: arial;
   color: white;
 }
+
+
 
 a:link{
   text-decoration: none;
