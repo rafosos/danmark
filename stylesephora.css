@@ -1,12 +1,10 @@
+/*Home*/
 body{
   margin:0;
 }
 
-header{
-  position: ;
-}
+/*cabeçalho/menu vermelho com links para navegação*/
 .cabecalho{
-  /*align-items: center;*/
   display: flex;
 }
 
@@ -14,12 +12,10 @@ header{
   font-family: 'Aleo', serif, 'Georgia';
   padding-left: 5%;
   padding-right: 5%;
-  /*position: -webkit-sticky;*/
   position: absolute;
   left: 9%;
   top: 18%;
   background-color: white;
-  /*float: left;*/
   height: 50px;
   width: 100px;
 }
@@ -33,7 +29,6 @@ header{
   top: 13%;
 }
 
-
 .fundovermelho{
   background-color: darkred;
   margin-top: 0px;
@@ -44,22 +39,21 @@ header{
 .menu{
   text-align: right;
   padding-right: 12%;
-  /*align-self: center;*/
   color: white;
   font-family: 'Aleo';
   font-size: 27px;
   white-space: pre;
-  /*float:right;*/
   }
 
-  .foto_nyhavn{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("imgs/steder/nyhavn2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 300px;
-    clear:both;
+/*foto que fica com o título*/
+.foto_nyhavn{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("imgs/steder/nyhavn2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  clear:both;
 }
 
 .tituloshome{
@@ -102,7 +96,7 @@ header{
   border-color: white;
   color: black;
   background-color: white;
-}
+  }
 }
 
 ul{
@@ -126,8 +120,6 @@ footer{
   font-family: arial;
   color: white;
 }
-
-
 
 a:link{
   text-decoration: none;
