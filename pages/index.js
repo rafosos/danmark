@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/index.module.scss';
-import utils from '../styles/utils.module.css';
 import Footer from '../components/footer/footer';
+import Header from '../components/header/header';
 
 export default function Home() {
   return (
@@ -18,22 +17,7 @@ export default function Home() {
 		    <meta charset="utf-8"/>
       </Head>
 
-      <header className={styles.header}>
-        <div className={styles.titleContainer}>
-          <h1><Link href="Home.html" className={styles.title}>DANMARK</Link></h1>
-        </div>
-        <div className={styles.menu}>
-          <div className={utils.linksCabecalho}>
-            <Link className={utils.linksheader} href="Home.html">HOME</Link>
-            <span>    |   </span>
-            <Link className={utils.linksheader} href="Lugares.html">LUGARES</Link>
-            <span>    |   </span>
-            <Link className={utils.linksheader} href="Sobre.html">DIÁRIO</Link>
-            <span>    |   </span>
-            <Link className={utils.linksheader} href="Comida.html">COMIDA</Link>
-          </div>
-        </div>
-      </header>
+      <Header/>
 
       <div className={styles.fotonyhavn}>
       </div>
@@ -50,9 +34,6 @@ export default function Home() {
           loading="lazy"></iframe> 
         <p className={styles.legendaMapa}>Caso você não saiba nem onde fica, ta ai um mapa!</p>
       </div>
-
-
-
 
       <div className={styles.containerImagens}>
         <p className={styles.tituloMain}>Mas o que têm de interessante neste minúsculo país?</p>
@@ -84,56 +65,6 @@ export default function Home() {
 
       <Footer/>
 
-      {/* <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style> */}
     </div>
   )
 }

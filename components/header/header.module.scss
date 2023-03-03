@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.header{
+    z-index: 200;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex: 1;
+    background-color: $red;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titleContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title{
+    font-family: 'Aleo', serif, 'Georgia';
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    text-align: right;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Aleo';
+    font-size: 150%;
+    width: 100%;
+}
+
+.linksCabecalho{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 15px;
+    white-space: pre;
+}
+
+.linksheader{
+    color: white;
+    text-decoration: none;
+}
