@@ -1,0 +1,64 @@
+.footer{
+    position:relative;
+    display:flex;
+    background-color: black;
+}
+
+.ulFooter{
+    flex: 1;
+    height: 250px;
+    flex-direction: row;
+    display: flex;
+}
+
+.liFooter{
+    padding-left: 12%;
+    padding-top: 2%;
+    color: #fff;
+}
+
+.h2Footer{
+    padding-left: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.avatar{
+    margin-top: 25px;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.txtFim{
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    color: grey;
+}
+
+.linksheader{
+    color: white;
+    text-decoration: none;
+}
+
+.sobre{
+    flex: 1;
+    display:flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.sobreEsquerda{
+    padding-right: 13%;
+    flex:1;
+    white-space: nowrap;
+}
+
+.sobreDireita{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
