@@ -1,0 +1,116 @@
+@import './variables.scss';
+
+.hero_image{
+    background-image: url("../public/images/rundetaarn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    clear:both;
+    z-index: 0;
+}
+
+.hero_container{
+    text-align: left;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    height: 50%;
+    width: 100%;
+    color: #fff;
+    // font-family: 'Trebuchet MS', sans-serif;
+    font-family: Garamond, serif;
+    font-style: italic;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+}
+
+.hero_text{
+    padding-left: 10%;
+}
+
+.container_fundo_vermelho{
+    background-color: $red;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.texto_fundo_vermelho{
+    color: $white;
+    font-family: Fira Sans, sans-serif;
+    padding-left: 1%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+
+.txt_geo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.paragrafo_geo{
+    flex: 1;
+}
+
+.container_mapa_dk{
+    padding: 5px;
+}
+
+.mapa_dk{
+    height: auto;
+    min-width: 200px;
+}
+
+.legendaMapa{
+    text-align: center;
+    color: $white;
+    font-style: italic;
+}
+
+.containerTudo{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.conteudo_ilha{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.container_txt_ilha{
+    margin-right: 5px;
+}
+
+.titulo_ilha{
+    font-family: Garamond, serif;
+    font-size: 3em;
+}
+
+.ilha_mapa{
+    display:inline-block;
+}
+
+.imagem_mapa_ilha{
+    height: 250px;
+    width: auto;
+}
+
+.legenda{
+    text-align: center;
+    font-style: italic;
+}

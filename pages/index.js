@@ -8,12 +8,7 @@ export default function Home() {
   return (
     <div className={styles.tudo}>
       <Head>
-        <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet"></link>
-        <title>Danmark</title>
+        <title>Danmark med Rafa</title>
 		    <meta charset="utf-8"/>
       </Head>
 
