@@ -20,7 +20,7 @@ export default function Footer(){
                     <div className={styles.sobre}>
                         <div className={styles.sobreEsquerda}>
                             <h2 className={styles.h2Footer}>Sobre o autor</h2>
-                            <p>Quem sou eu?</p>
+                            <p><Link className={styles.linksheader} href="/sobre">Quem sou eu?</Link></p>
                             <p>Intercâmbio Rotary</p>
                         </div>
 

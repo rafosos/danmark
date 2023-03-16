@@ -1,0 +1,72 @@
+@import './variables.scss';
+
+.hero_image{
+    background-image: url("../public/images/danskeflag-vejle-fjord.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    clear:both;
+    z-index: 0;
+}
+
+.hero_container{
+    text-align: left;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    // font-family: 'Trebuchet MS', sans-serif;
+    font-family: Garamond, serif;
+    font-style: italic;
+    font-size: 5em;
+    align-items: flex-end;
+}
+
+.hero_text{
+    padding-left: 6%;
+    padding-bottom: 2%;
+}
+
+.container_txt_sobre{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_txts{
+    margin:2%;
+    flex: 1;
+}
+
+.icone{
+    transform: scale(0.7)
+}
+
+.containerContato{  
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container_img_grande{
+    flex:1;
+    height: auto;
+    position:relative;
+    display: flex;
+}
+
+.container_margem{
+    margin:5%;
+    position: relative;
+    height: auto;
+    flex: 1;
+}
+
+.img_nyhavn{
+    object-fit: cover;
+}

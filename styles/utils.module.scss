@@ -1,3 +1,14 @@
+@import './variables.scss';
+
 .italic{
     font-style: italic;
+}
+
+.links{
+    text-decoration: none;
+    color: inherit;
+}
+
+.links:hover{
+    color: $red;
 }
