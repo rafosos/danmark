@@ -1,6 +1,6 @@
 @import './variables.scss';
 
-.hero_image{
+.hero_image_top, .hero_image_bottom{
     background-image: url("../public/images/danskeflag-vejle-fjord.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,12 @@
     z-index: 0;
 }
 
-.hero_container{
+.hero_image_bottom{
+    background-image: url("../public/images/introcamp-all-flags.jpeg");
+    background-position-y: 55%;
+}
+
+.hero_container, .hero_container_bottom{
     text-align: left;
     display: flex;
     position: absolute;
@@ -25,6 +30,10 @@
     font-style: italic;
     font-size: 5em;
     align-items: flex-end;
+}
+
+.hero_container_bottom{
+    background-color: rgba(0,0,0,0.5);
 }
 
 .hero_text{

@@ -12,3 +12,20 @@
 .links:hover{
     color: $red;
 }
+
+.quote{
+    background-color: #f3f3f3;
+    padding: 0.5%;
+    border-radius: 25px;
+    font-family: "Playfair display", serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 21px;
+    margin-inline: 0px;
+    margin-block: 0px;
+    padding-bottom: 1em;
+}
+
+.quote_autor{
+    margin-left: 7%;
+}
