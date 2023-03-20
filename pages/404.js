@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import Header from '../components/header/header'
+import Title from '../components/title/title';
 
 export default function NotFound() {
   return <>
-    <Header/>
+  <Title>Página não encontrada</Title>
     <h1>404 - Page Not Found</h1>
         <p>vish, n tem nada nesse link não</p>
     <Link href="/">

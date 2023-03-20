@@ -17,19 +17,20 @@
     display: flex;
     position: absolute;
     bottom: 0%;
-    height: 50%;
+    height: 100%;
     width: 100%;
     color: #fff;
     // font-family: 'Trebuchet MS', sans-serif;
     font-family: Garamond, serif;
     font-style: italic;
     font-size: 5em;
-    background-color: rgba(0, 0, 0, 0.6);
-    align-items: center;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero_text{
     padding-left: 10%;
+    padding-bottom: 2%;
 }
 
 .container_fundo_vermelho{

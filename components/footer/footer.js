@@ -11,8 +11,8 @@ export default function Footer(){
                         <h2 className={styles.h2Footer}>Mapa do site</h2>
                         <p><Link className={styles.linksheader} href="/">Home</Link></p>
                         <p><Link className={styles.linksheader} href="/lugares">Lugares</Link></p>
-                        <p><Link className={styles.linksheader} href="Diario.html">Diário</Link></p>
-                        <p><Link className={styles.linksheader} href="Comida.html">Comida</Link></p>
+                        <p><Link className={styles.linksheader} href="/diario">Diário</Link></p>
+                        <p><Link className={styles.linksheader} href="/comida">Comida</Link></p>
                     </div>
                 </div>
 

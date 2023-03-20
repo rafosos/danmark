@@ -1,5 +1,3 @@
-import Header from '../components/header/header';
-import Footer from '../components/footer/footer';
 import styles from '../styles/sobre.module.scss';
 import utils from '../styles/utils.module.scss';
 import Image from 'next/image';
@@ -7,15 +5,12 @@ import InstaIcon from '../components/images/instaIcon';
 import Internet from '../components/images/internet';
 import Link from 'next/link';
 import GmailIcon from '../components/images/gmailIcon';
-import Head from 'next/head';
+import Title from '../components/title/title';
 
 export default function Sobre(){
 
     return(<>
-    <Head>
-        <title>Sobre | Danmark med Rafa</title>
-    </Head>
-    <Header/>
+    <Title>Sobre</Title>
 
     <div className={styles.hero_image_top}>
         <div className={styles.hero_container}>
@@ -145,7 +140,5 @@ export default function Sobre(){
             </div>
         </div>
     </div>
-
-    <Footer />
-    </>)
+   </>)
 }

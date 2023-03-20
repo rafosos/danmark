@@ -1,21 +1,15 @@
-import Head from "next/head";
 import Image from "next/image";
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
 import styles from '/styles/lugares.module.scss';
 import utils from '/styles/utils.module.scss';
 import SjaellandOnMap from "../components/images/sjaellandOnMap";
 import FynOnMap from '../components/images/fynOnMap';
 import JyllandOnMap from '../components/images/jyllandOnMap';
 import Link from "next/link";
+import Title from "../components/title/title";
 
 export default function Lugares(){
     return (<>
-    <Head>
-        <title>Lugares | Danmark med Rafa</title>
-    </Head>
-    
-    <Header/>
+    <Title>Lugares</Title>
         
     <div className={styles.hero_image}>
         <div className={styles.hero_container}>
@@ -135,7 +129,5 @@ export default function Lugares(){
         </div>
     
     </div>
-
-    <Footer />
     </>)
 }

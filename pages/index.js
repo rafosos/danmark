@@ -1,18 +1,10 @@
-import Head from 'next/head';
-import Link from 'next/link';
 import styles from '../styles/index.module.scss';
-import Footer from '../components/footer/footer';
-import Header from '../components/header/header';
+import Title from '../components/title/title';
 
 export default function Home() {
   return (
     <div className={styles.tudo}>
-      <Head>
-        <title>Danmark med Rafa</title>
-		    <meta charset="utf-8"/>
-      </Head>
-
-      <Header/>
+      <Title>Home</Title>
 
       <div className={styles.fotonyhavn}>
       </div>
@@ -48,7 +40,7 @@ export default function Home() {
 
           <div className={styles.containerImgGaleria}>
             <img className={styles.imgGaleria}
-              src="images/janta_restaurante.jpg"/>
+              src="images/mad/janta_restaurante.jpg"/>
             <p className={styles.legendaGaleria}>Tem comida gostosa</p>
           </div>
         </div>
@@ -57,9 +49,6 @@ export default function Home() {
           E muito mais, que você pode descobrir aqui, neste belo website!
         </p>
       </div>
-
-      <Footer/>
-
     </div>
   )
 }
