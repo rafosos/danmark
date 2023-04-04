@@ -15,8 +15,8 @@ export default function Header(){
                 <span>    |   </span>
                 <Link className={styles.linksheader} href="/comida">COMIDA</Link>
                 <span>    |   </span>
-                <Link className={styles.linksheader} href="/diario">DIÁRIO</Link>
-                <span>    |   </span>
+                {/* <Link className={styles.linksheader} href="/diario">DIÁRIO</Link>
+                <span>    |   </span> */}
                 <Link className={styles.linksheader} href="/sobre">SOBRE</Link>
             </div>
         </div>

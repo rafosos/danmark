@@ -33,5 +33,30 @@
 }
 
 .container{
-    margin: 1% 5%;
+    margin: 3% 5%;
+    display:flex;
+}
+
+.container_txt{
+    display: flex;
+    flex: 1;
+}
+
+.container_img_grande{
+    flex:1;
+    height: auto;
+    position:relative;
+    display: flex;
+}
+
+.container_margem{
+    margin: 0% 5%;
+    position: relative;
+    height: auto;
+    flex: 1;
+}
+
+.img_grande{
+    object-fit: cover;
+    margin-bottom:10%;
 }

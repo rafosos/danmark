@@ -33,3 +33,10 @@
 .quote_autor{
     margin-left: 7%;
 }
+
+.gradienteBr{
+    background: -webkit-linear-gradient(left, #009c3b, #ffdf00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

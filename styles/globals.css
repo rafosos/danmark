@@ -1,5 +1,6 @@
 html,
-body {
+body,
+h2 {
   padding: 0;
   margin: 0;
   font-family: Fira Sans, sans-serif;
@@ -7,6 +8,7 @@ body {
 
 a{
   text-decoration: none;
+  color: #000;
 }
 
 /* * {
